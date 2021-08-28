@@ -33,6 +33,16 @@ const NSForm: FC<NSFormProps> = (props) => {
         />
       </Styles.Fieldset>
 
+      <Styles.Fieldset>
+        <Styles.Legend>Head</Styles.Legend>
+
+        <DegreeInput
+          label="Rotation"
+          value={bones.head.rotation}
+          onValueChange={handleRotationChange("head")}
+        />
+      </Styles.Fieldset>
+
       {FIELD_SETS.map(({ legend, inputs }) => (
         <Styles.Fieldset key={legend}>
           <Styles.Legend>{legend}</Styles.Legend>
