@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "lib": ["ESNext", "DOM"],
+        "jsx": "react-jsx",
+        "module": "ES6",
+        "moduleResolution": "Node",
+        "isolatedModules": true,
+        "strict": true
+    }
+}
